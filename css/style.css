@@ -1,0 +1,38 @@
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  font: normal 0.75em/1.5em "Elsie Swash Caps", cursive;
+  color: #777;
+  text-align: right;
+}
+
+.milk-text {
+  font: bold 2.6em "Elsie Swash Caps", cursive;
+  color: #FFF;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo {
+  background: aqua;
+}
+
+#logo {
+  font-family: "Elsie Swash Caps", cursive;
+}
+
+#details a:link, #detail a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
