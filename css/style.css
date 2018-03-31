@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps:400,900');
+/*
+Here's a comment
+
+
+
+*/
+html {
+  font-size: 16px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+figcaptions {
+  font: normal .75rem/1.5rem "Elsie Swah Caps", cursive, "Times New Roman", serif;
+  color: #777;
+  text-align: right;
+}
+
+.milk-text {
+  font: bod 2.6rem "Elsie Swah Caps", cursive;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo {
+  background: aqua;
+}
+
+#logo h1 {
+  font-family: "Clicker Script", cursive;
+}
+
+#logo h2 {
+  font-family: "Elsie Swah Caps", cursive;
+}
+
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+  text-decoration: underline;
+}
