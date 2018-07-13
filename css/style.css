@@ -65,3 +65,11 @@ figcaption {
   color: red;
   text-decoration: none;
 }
+
+git status
+git add .
+git commit -m "add css style to all pages"
+git push -u origin site-style
+
+git co master
+git merge site-style
