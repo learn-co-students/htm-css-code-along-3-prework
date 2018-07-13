@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:900');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+/* This is a comment! */
+
+/* Css Syntax:
+
+selector  {
+property: value;
+property: value;
+}
+*/
+
+/* Type selectionr */
+
+p {
+  font-size: 1em; /*px, pt, 100%, 1em */
+  line-height: 1.5em;
+}
+
+figcaption{
+  /* font-weight: normal;
+  font-size: .75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif; */
+  font: normal 0.75em/1.5em "Elise Swash Caps", cursive;
+  color: #777;
+  text-align: right;
+
+}
+
+/* Class selector */
+
+.milk-text{/* select element with the class = "milk text"*/
+  font: bold 2.5em "Elsie Swash Caps", cursive;
+  color: white
+  text-shadow: 0 2px 3px #000
+}
+
+/* ID selector - apply to one element per page */
+#logo{
+  background: aqua;
+}
+
+/* Descendant selector -- all the babies */
+
+#logo h1{/* sytle <h1> if they're inside the id = "logo"
+*/ font-family: "Clicker Script", cursive;
+}
+
+#logo h2{
+  font-family: "Elise Swash Caps", cursive;
+}
+
+/* Psuedo Selector look at event states */
+ #details a:link, #details a:visited{
+   color: black;
+   text-decoration: none;
+ }
+
+ #details a:hover {
+   color:black;
+   text-decoration: underline;
+ }
+
+#details a:active{
+  color:red;
+}
