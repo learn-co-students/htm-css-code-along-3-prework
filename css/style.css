@@ -51,7 +51,7 @@ figcaption {
   font-family: 'Elsie Swash Caps', cursive;
 }
 
-/*Pseudo selector*/
+/*Pseudo selectors*/
 
 #details a:link, #details a:visited {
   color: black;
