@@ -1,0 +1,67 @@
+/* This is a comment */
+/* CSS Syntax 
+selector {
+  property: value;
+  property: value;
+}
+*/
+
+/*Type selector */
+
+p {/* select all <p> */
+font-size: 16px; /*16px, ?pt, 100%, 1em */
+line-height: 1.5em;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Time Roman", serif;
+  the above attritbutes can be represented by the line below*/
+  font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+  color: #000000; /*000000=RRGGBB*/
+}
+
+/*Class selector (applied to as many elements as you like) */
+/*can give class any name*/
+.milk-text { /*select elements with class="milk-text" */
+  font: bold 2.6em Georgia, cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+
+/* ID selector (apply to one unique element per page) */
+/* find ID using # sign*/
+#logo{/* select elements with the id="logo" */
+  background:aqua;
+}
+
+
+/* descendent selector */
+
+#logo h1 {/* only styles <h1> if theyre inside an elements with id="logo"*/
+font-family: "Clicker Script" cursive;
+  
+}
+
+/*Pseudo selector */
+/* style links within a certain section with a certain state*/
+
+#details a:link, #details a:visited{ /*here we're selecting links that have not been touched and links that have been visited to have the same style*/
+  color:black;
+  text-decoration:none;
+}
+
+#details a:hover {
+  color:black;
+  text-decoration: underline;
+}
+
+
+#details a:active {
+  color:red;
+}
+
+
